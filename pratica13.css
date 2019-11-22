@@ -1,0 +1,140 @@
+body {
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+
+/* Formatação HEADER */
+
+header { /*imagem de fundo do header*/
+    height: 151px;
+    padding: 1.6rem;
+    background-color: #ffe6b8;
+}
+
+/* Formatação NAV */
+
+nav { /*formatação da nav*/
+    height: 4.9rem;
+    margin-bottom: 1rem;
+    background-color: #ffe6b8;
+}
+
+.navbar-nav {
+    padding-bottom: .8rem;
+}
+
+a { /*formatação dos menus*/
+    color: #924f09;
+    font-weight: bold;
+}
+
+.dropdown-menu { /*fundo do dropdown*/
+    background-color: #ffe6b8;
+}
+
+.dropdown-item { /*formataçao dos menus do dropdown*/
+    color: #924f09;
+}
+
+ul { /*alinhar os menus no centro*/
+    margin: auto;
+}
+
+li { /*distanciamento entre os menus */
+    margin: 0 3rem;
+    border-bottom-style: outset;
+    border-bottom-color: #924f09;
+}
+
+/* Formatação CARROSEL */
+
+.carousel-inner { /* ajustar imagens do carrosel*/
+    margin-top: -1rem;
+}
+
+/* Formatação CARDS (HOME) */
+
+#cardsDestaque { /* alinhamento dos cartoes */
+    display: flex;
+    color: rgb(107, 107, 107);
+}
+
+.card { /*distancia entre os cards*/
+    margin: auto auto;
+    width: 18rem;
+}
+
+/* Formatação MODAL */
+
+.btn, .bnt { /* formatação dos botões do modal */
+    background-color: #924f09;
+    color: white;
+    font-size: 14px;
+    padding: 0 .7rem;
+    border-radius: 30px;
+}
+
+.btn-fechar {
+    background-color: rgb(128, 128, 128);
+    color: white;
+    font-size: 14px;
+    padding: 0 .7rem;
+    border-radius: 30px;
+}
+
+/* Formatação FESTAS */
+
+#festas { /* formataçao da div sobre festas */
+    background-color: #ffe6b8;
+    display: flex;
+}
+
+#festasTexto { /* formatação da div com texto sobre festas */
+    width: 50%;
+    padding-top: 2rem;
+    text-align: center;
+    background-color: #ffe6b8;
+    max-width: 100%;
+    height: auto;
+    color: rgb(107, 107, 107);
+}
+
+.festasParagrafo { /* formatação do texto sobre festas */
+    padding: 0 8rem 0 8rem;
+    text-align: justify;
+
+}
+
+.festaDivFoto { /*formatação da imagem sobre festas*/
+    width: 50%;
+    height: auto;
+}
+
+.dimensionamento{ /* responsividade para imagens*/
+    max-width: 100%;
+}
+
+/* Formatação FOOTER */
+
+footer { /* formatação do footer */
+    background-color: #ffe6b8;
+    color: #924f09;
+}
+
+.rodape { /*formatação da div geral do footer */
+    padding: 3rem 0 2rem 0;
+    display: flex;
+}
+
+.footerDivs { /*divs do footer*/
+    margin: 0 auto;
+    text-align: left;
+}
+
+#footerRedesSociais { /* centralizar informações de rede social do footer*/
+    text-align: center;
+}
+
+#footerRedesSociais > a { /* distancia entre os icones de rede social */
+    margin: 0 .5rem;
+}

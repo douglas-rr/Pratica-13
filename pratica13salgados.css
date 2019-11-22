@@ -1,0 +1,93 @@
+body {
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+
+/* Formatação HEADER */
+
+header { /*imagem de fundo do header*/
+    height: 151px;
+    padding: 1.6rem;
+    background-color: #ffe6b8;
+}
+
+/* Formatação NAV */
+
+nav { /*formatação da nav*/
+    height: 4.9rem;
+    margin-bottom: 1rem;
+    background-color: #ffe6b8;
+}
+
+.navbar-nav {
+    padding-bottom: .8rem;
+}
+
+a { /*formatação dos menus*/
+    color: #924f09;
+    font-weight: bold;
+}
+
+.dropdown-menu { /*fundo do dropdown*/
+    background-color: #ffe6b8;
+}
+
+.dropdown-item { /*formataçao dos menus do dropdown*/
+    color: #924f09;
+}
+
+ul { /*alinhar os menus no centro*/
+    margin: auto;
+}
+
+li { /*distanciamento entre os menus */
+    margin: 0 3rem;
+    border-bottom-style: outset;
+    border-bottom-color: #924f09;
+}
+
+/* Formatação página SALGADOS (PRODUTOS) */
+
+.titulo {
+    font-size: 30px;
+    color: #924f09;
+    text-align: center;
+    padding: 2rem 0 0 0 ;
+}
+
+.salgadosDiv {
+    display: flex;
+    padding-left: 10rem;
+    margin-bottom: 3rem;
+}
+
+.tabelaSalgados {
+    margin-left: 12rem;
+    width: 25%;
+    color: rgb(107, 107, 107);
+}
+
+/* Formatação FOOTER */
+
+footer { /* formatação do footer */
+    background-color: #ffe6b8;
+    color: #924f09;
+}
+
+.rodape { /*formatação da div geral do footer */
+    padding: 3rem 0 2rem 0;
+    display: flex;
+}
+
+.footerDivs { /*divs do footer*/
+    margin: 0 auto;
+    text-align: left;
+}
+
+#footerRedesSociais { /* centralizar informações de rede social do footer*/
+    text-align: center;
+}
+
+#footerRedesSociais > a { /* distancia entre os icones de rede social */
+    margin: 0 .5rem;
+}

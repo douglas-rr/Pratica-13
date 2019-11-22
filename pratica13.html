@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="pratica13.css">
+
+  <!--Ícones-->
+  <script src="https://kit.fontawesome.com/1a0c2bb1ad.js"></script>
+
+  <!--Funções JS-->
+  <script src="pratica13.js"></script>
+
+  <!--Título com ícone-->
+  <title>Ramos de Trigo</title>
+  <link rel="icon" href="icone.png">
+
+</head>
+
+<body>
+  <!--Logo-->
+  <header>
+    <div id="bg"></div>
+    <a href="pratica13.html">
+      <img id="logo" src="trigo.png">
+    </a>
+  </header>
+
+  <!--Nav com Menus-->
+  <nav class="navbar navbar-expand-lg">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="pratica13.html"><i class="fas fa-home"></i> HOME</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="pratica13quemSomos.html"><i class="fas fa-book-reader"></i> QUEM SOMOS</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"><i class="fas fa-cookie-bite"></i> PRODUTOS</a>
+
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="pratica13bolos.html"><i class="fas fa-cheese"></i> Bolos</a>
+            <a class="dropdown-item" href="pratica13doces.html"><i class="fas fa-candy-cane"></i> Doces</a>
+            <a class="dropdown-item" href="pratica13paes.html"><i class="fas fa-bread-slice"></i> Pães</a>
+            <a class="dropdown-item" href="pratica13pizza.html"><i class="fas fa-pizza-slice"></i> Pizzas</a>
+            <a class="dropdown-item" href="pratica13salgados.html"><i class="fas fa-stroopwafel"></i> Salgados</a>
+            <a class="dropdown-item" href="pratica13tortas.html"><i class="fas fa-cookie"></i> Tortas</a>
+
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="pratica13encomenda.html"><i class="fas fa-truck"></i> ENCOMENDAS </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="pratica13localizacao.html"><i class="fas fa-map-marker-alt"></i> LOCALIZAÇÃO</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="pratica13contato.html"><i class="fas fa-envelope"></i> CONTATO</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Carrosel-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="carrosel1.jpg" alt="Agenda da Semana">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="carrosel2.png"" alt=" Floresta Negra">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="carrosel3.png" alt="Aniversário">
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+  <br><br>
+
+  <!--Titulo de Destaques-->
+  <img src="destaques.png">
+
+  <br><br><br>
+
+  <!--Cards-->
+  <div id="cardsDestaque">
+
+    <div class="card">
+      <img class="card-img-top" src="chessecake.png" alt="Cheessecake de Morango">
+      <div class="card-body">
+        <p class="card-text">Torta à base de cream cheese, um queijo cremoso, muito popular nos Estados Unidos.</p>
+        <button type="button" class="bnt" data-toggle="modal" data-target="#exampleModal">Enviar comentário</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img-top" src="chocolateComMorango.png" alt="Bolo de Chocolate com Morango">
+      <div class="card-body">
+        <p class="card-text">Chocolate e morango formam uma dupla irresistível, não é mesmo?</p>
+        <button type="button" class="bnt" data-toggle="modal" data-target="#exampleModal">Enviar comentário</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img-top" src="portuguesa.png" alt="Pizza Portuguesa">
+      <div class="card-body">
+        <p class="card-text">A segunda pizza preferida dos brasileiros você certamente já conhece: a Portuguesa.</p>
+        <button type="button" class="bnt" data-toggle="modal" data-target="#exampleModal">Enviar comentário</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img-top" src="coxinha.png" alt="Coxinha de Frango">
+      <div class="card-body">
+        <p class="card-text">Coxinha tradicionalmente recheada com carne de frango cozida e desfiada.</p>
+        <button type="button" class="bnt" data-toggle="modal" data-target="#exampleModal">Enviar comentário</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!--Modal-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Comentário</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Destinatário:</label>
+              <input type="text" class="form-control" id="recipient-name" value="atendimento@ramosdetrigo.com.br">
+            </div>
+
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Comentário:</label>
+              <textarea class="form-control" id="message-text" placeholder="Deixe o seu comentário aqui"></textarea>
+            </div>
+          </form>
+
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn-fechar" data-dismiss="modal">Fechar</button>
+          <button type="button" class="btn">Enviar</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <br><br>
+
+  <!--Bloco de Festas-->
+  <div id="festas">
+    <div id="festasTexto">
+      <img class="dimensionamento" src="festas.png">
+
+      <br>
+
+      <p class="festasParagrafo">
+        Reunir a família e amigos é um momento mágico em nossas vidas, mas, se você ainda não pensou no que servir, a
+        Ramos de Trigo pode ajudar. </p>
+
+      <p class="festasParagrafo">
+        Nós fazemos diariamente dezenas de tipos de salgados, bolos, tortas, pães diversos, doces, entre outros
+        quitutes. </p>
+
+      <p class="festasParagrafo">
+        Para mantermos um alto padrão de qualidade nossos produtos são elaborados de acordo com processos que garantem
+        que todos os dias nossos produtos sejam iguais e são supervisionados por uma equipe de nutricionistas presente
+        em tempo integral na padaria. </p>
+
+      <p class="festasParagrafo">
+        Se você já sabe o que pedir vá até o cardápio Festas & Eventos e faça seu pedido, se ainda está na dúvida, temos
+        uma e equipe de profissionais que poderá ajudar a escolher e dimensionar os quitutes que transformarão sua festa
+        ou evento em um momento inesquecível. </p>
+
+    </div>
+
+    <div id="festasDivFoto">
+      <img class="dimensionamento" src="casamento.png">
+    </div>
+
+  </div>
+
+  <br>
+
+  <!--Mapa-->
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.4922025864366!2d-43.95143418505415!3d-19.94579244395145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6978216acd62d%3A0xe616630d2cdcb703!2sAv.%20Prudente%20de%20Morais%2C%201157%20-%20Santo%20Ant%C3%B4nio%2C%20Belo%20Horizonte%20-%20MG%2C%2030350-093!5e0!3m2!1spt-BR!2sbr!4v1573934585003!5m2!1spt-BR!2sbr"
+    width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+  </iframe>
+
+  <br><br>
+
+  <!--Rodapé-->
+  <footer>
+
+    <div class="rodape">
+
+      <div class="footerDivs">
+
+        <h5> <b>FUNCIONAMENTO</b> </h5>
+
+        <div>
+          De portas abertas para você, sempre. <br>
+          Segunda a domingo: <i class="fas fa-clock"></i> <b>06:00 - 22:00</b>
+        </div>
+
+      </div>
+
+      <div class="footerDivs" id="footerRedesSociais">
+
+        <h5> <b>REDES SOCIAIS</b> </h5>
+
+        <a href="#">
+          <i class="fab fa-facebook-square fa-2x"></i>
+        </a>
+
+        <a href="#">
+          <i class="fab fa-instagram fa-2x"></i>
+        </a>
+
+        <a href="#">
+          <i class="fab fa-twitter-square fa-2x"></i>
+        </a>
+
+      </div>
+
+      <div class="footerDivs">
+
+        <h5> <b>CONTATO</b> </h5>
+
+        <i class="fas fa-phone-alt"></i>
+        (31) 3355-3407
+
+        <br>
+
+        <i class="fas fa-building"></i>
+        Av. Prudêncio de Morais, 1157
+
+        <br>
+
+        <i class="fas fa-envelope"></i>
+        atendimento@ramosdetrigo.com.br
+
+      </div>
+
+    </div>
+
+    <span>
+      <i class="far fa-copyright"></i>
+      2019 <b>Panificadora Ramos de Trigo</b> - Todos os direitos reservados.
+    </span>
+  </footer>
+
+
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
